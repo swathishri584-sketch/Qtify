@@ -1,0 +1,16 @@
+.leftNavigation {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+/* "Vanishes" at the start, but stays in the page so clicks are harmless */
+.hidden {
+  opacity: 0;
+  cursor: default;
+}

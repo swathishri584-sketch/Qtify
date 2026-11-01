@@ -1,0 +1,43 @@
+.wrapper {
+  width: 159px;
+}
+
+.card {
+  width: 159px;
+  height: 205px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+.banner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.chip {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-size: 10px;
+  height: 23px;
+}
+
+.titleWrapper p {
+  margin-top: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
